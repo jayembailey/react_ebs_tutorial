@@ -39,8 +39,8 @@ jobs:
          #  input the credentials you used to setup AWS CLI and credentials for the application environment
           aws_access_key: "${{ secrets.ACCESS_KEY }}"
           aws_secret_key: "${{ secrets.SECRET_ACCESS_KEY }}"
-          application_name: dog-app
-          environment_name: dog-app-dev
+          application_name: react-app
+          environment_name: react-app-dev
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
           region: us-east-1
           deployment_package: deploy-dog-app.zip
