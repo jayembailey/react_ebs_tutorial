@@ -42,7 +42,7 @@ jobs:
           application_name: dog-app
           environment_name: dog-app-dev
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
-          region: us-west-2
+          region: us-east-1
           deployment_package: deploy-dog-app.zip
 
       - name: Deployed!
