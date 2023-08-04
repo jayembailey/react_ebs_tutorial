@@ -36,3 +36,5 @@ const Dogs = () => {
 }
 
 export default Dogs;
+
+//TODO: figure out github actions. Crede
